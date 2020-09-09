@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4e9930eb-365f-4511-9b73-ccbea6c3539a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1gj27ZWjVyqwdPBaFoBKDvG223R" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\macbook\Desktop\Proje1\bazmen" />
+      <recent name="C:\Users\macbook\Desktop\Proje1\bazmen\images\icons" />
+      <recent name="C:\Users\macbook\Desktop\Proje1\bazmen\js" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e9930eb-365f-4511-9b73-ccbea6c3539a" name="Default Changelist" comment="" />
+      <created>1598621598098</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598621598098</updated>
+      <workItem from="1598621599448" duration="30079000" />
+      <workItem from="1598687701428" duration="44253000" />
+      <workItem from="1599241510414" duration="593000" />
+      <workItem from="1599430644714" duration="2444000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="370" y="239" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598623886980">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="370" y="239" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1280.0.1280.760/0.0.1280.984@0.0.1280.984" timestamp="1598623886980" />
+    <state x="420" y="247" key="FileChooserDialogImpl" timestamp="1598710869931">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="420" y="247" key="FileChooserDialogImpl/1280.0.1280.760/0.0.1280.984@0.0.1280.984" timestamp="1598710869931" />
+    <state x="79" y="157" width="1096" height="800" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598643758336">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="79" y="157" width="1096" height="800" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1280.0.1280.760/0.0.1280.984@0.0.1280.984" timestamp="1598643758336" />
+    <state x="336" y="312" key="com.intellij.ide.util.TipDialog" timestamp="1599463698862">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="336" y="312" key="com.intellij.ide.util.TipDialog/1280.0.1280.760/0.0.1280.984@0.0.1280.984" timestamp="1599463698862" />
+    <state x="438" y="181" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598688370738">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="438" y="181" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1280.0.1280.760/0.0.1280.984@0.0.1280.984" timestamp="1598688370738" />
+    <state x="296" y="157" width="954" height="812" key="find.popup" timestamp="1599081145365">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="296" y="157" width="954" height="812" key="find.popup/1280.0.1280.760/0.0.1280.984@0.0.1280.984" timestamp="1599081145365" />
+    <state x="296" y="145" width="670" height="676" key="search.everywhere.popup" timestamp="1598707361791">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="296" y="145" width="670" height="676" key="search.everywhere.popup/1280.0.1280.760/0.0.1280.984@0.0.1280.984" timestamp="1598707361791" />
+  </component>
+</project>
