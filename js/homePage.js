@@ -1,36 +1,36 @@
 function homePageLoading() {
-    var response=getModel(url+"/homePage/getAllData");
+    var response=getModel(url+"/homePage/getAllData").data;
 
-    setAttributeForBackgroundImg("bannerpic1","style",response.data.bannerPic1);
-    setAttributeForBackgroundImg("bannerpic2","style",response.data.bannerPic2);
-    setAttributeForBackgroundImg("bannerpic3","style",response.data.bannerPic3);
+    setAttributeForBackgroundImg("bannerpic1","style",response.bannerPic1);
+    setAttributeForBackgroundImg("bannerpic2","style",response.bannerPic2);
+    setAttributeForBackgroundImg("bannerpic3","style",response.bannerPic3);
 
-    setValueById("bannerTitle1",response.data.bannerTitle);
-    setValueById("bannerTitle2",response.data.bannerTitle);
-    setValueById("bannerTitle3",response.data.bannerTitle);
+    setValueById("bannerTitle1",response.bannerTitle);
+    setValueById("bannerTitle2",response.bannerTitle);
+    setValueById("bannerTitle3",response.bannerTitle);
 
-    setValueById("bannerSubtitle1",response.data.bannerSubtitle);
-    setValueById("bannerSubtitle2",response.data.bannerSubtitle);
-    setValueById("bannerSubtitle3",response.data.bannerSubtitle);
+    setValueById("bannerSubtitle1",response.bannerSubtitle);
+    setValueById("bannerSubtitle2",response.bannerSubtitle);
+    setValueById("bannerSubtitle3",response.bannerSubtitle);
 
-    setValueById("bannerButtonText1",response.data.bannerButtonText);
-    setValueById("bannerButtonText2",response.data.bannerButtonText);
-    setValueById("bannerButtonText3",response.data.bannerButtonText);
+    setValueById("bannerButtonText1",response.bannerButtonText);
+    setValueById("bannerButtonText2",response.bannerButtonText);
+    setValueById("bannerButtonText3",response.bannerButtonText);
 
-    setValueById("title1",response.data.title1);
-    setAttributeById("pic1","src",response.data.pic1);
-    setAttributeById("pic2","src",response.data.pic2);
-    setAttributeById("pic3","src",response.data.pic3);
+    setValueById("title1",response.title1);
+    setAttributeById("pic1","src",response.pic1);
+    setAttributeById("pic2","src",response.pic2);
+    setAttributeById("pic3","src",response.pic3);
 
-    setValueById("newSeasonTitle",response.data.newSeasonTitle);
-    setAttributeById("newSeasonPic1","src",response.data.newSeasonPic1);
-    setAttributeById("newSeasonPic2","src",response.data.newSeasonPic2);
-    setAttributeById("newSeasonPic3","src",response.data.newSeasonPic3);
-    setAttributeById("newSeasonPic4","src",response.data.newSeasonPic4);
-    setAttributeById("newSeasonPic5","src",response.data.newSeasonPic5);
-    setAttributeById("newSeasonPic6","src",response.data.newSeasonPic6);
-    setAttributeById("newSeasonPic7","src",response.data.newSeasonPic7);
-    setAttributeById("newSeasonPic8","src",response.data.newSeasonPic8);
+    setValueById("newSeasonTitle",response.newSeasonTitle);
+    setAttributeById("newSeasonPic1","src",response.newSeasonPic1);
+    setAttributeById("newSeasonPic2","src",response.newSeasonPic2);
+    setAttributeById("newSeasonPic3","src",response.newSeasonPic3);
+    setAttributeById("newSeasonPic4","src",response.newSeasonPic4);
+    setAttributeById("newSeasonPic5","src",response.newSeasonPic5);
+    setAttributeById("newSeasonPic6","src",response.newSeasonPic6);
+    setAttributeById("newSeasonPic7","src",response.newSeasonPic7);
+    setAttributeById("newSeasonPic8","src",response.newSeasonPic8);
 }
 
 

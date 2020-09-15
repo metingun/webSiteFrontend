@@ -615,7 +615,18 @@ iframe {
     flex-wrap: wrap;
     padding-right: 38px;
 }
-
+.topbar-child2-home {
+    height: 100%;
+    top: 0;
+    right: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
 /*[ Menu ]
 ===========================================================*/
@@ -1875,7 +1886,7 @@ li.sale-noti > a {
     padding-left: 15px;
     padding-right: 15px;
     background-repeat: no-repeat;
-    background-position: center 0;
+    background-position: bottom;
     background-size: cover;
 }
 
@@ -2043,13 +2054,10 @@ li.sale-noti > a {
     -o-transition: all 0.4s;
     -moz-transition: all 0.4s;
     transition: all 0.4s;
+
 }
 
 .slick3-dot-overlay:hover {
-    border: 3px solid #888888;
-}
-
-.slick3-dots .slick-active .slick3-dot-overlay {
     border: 3px solid #888888;
 }
 
@@ -2201,21 +2209,19 @@ li.sale-noti > a {
 /*[ Tags ]
 ///////////////////////////////////////////////////////////
 */
-.wrap-tags {
-    margin-right: -3px;
-    margin-left: -3px;
-}
 
 .tag-item {
     display: block;
     font-family: Montserrat-Regular;
-    font-size: 13px;
-    color: #888888;
+    font-size: 18px;
+    color: #e65540;
     line-height: 1.5;
     padding: 5px 15px;
-    border: 1px solid #cccccc;
+    border: 1px solid #e65540;
     border-radius: 15px;
     margin: 3px;
+    font-weight: bolder;
+    margin-top: 6%;
 }
 
 .tag-item:hover {
@@ -2393,3 +2399,70 @@ input.num-product::-webkit-inner-spin-button {
     margin-left: 5%;
 }
 
+.full-center{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
+
+.containerx{
+    display: flex;
+    justify-content: center;
+}
+
+.square:hover {
+    -webkit-transform: translate(20px, -10px);
+    -ms-transform: translate(10px, -10px);
+    transform: translate(10px, -10px);
+    -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+
+.square{
+    height: 460px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 10px 15px #D9DBDF;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.mask{
+    border-radius: 4px;
+}
+
+.imgx{
+    width: 100%;
+    height: 320px;
+}
+
+.h1x{
+    margin-top: 3%;
+    font-size: 23px;
+}
+.px{
+    font-family: Montserrat-Regular, serif;
+    font-size: 13px;
+    line-height: 1.7;
+    color: #888888;
+    padding: 30px;
+    padding-top: 10px;
+}
+
+
+.height-380{
+    height: 380px;
+}
+.height-275{
+    height: 275px;
+}
+.height-360{
+    height: 360px;
+}

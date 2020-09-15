@@ -34,7 +34,7 @@
                 break;
 
             case "2":
-                collectionLoading();
+                collectionLoading(0,'allCollection');
                 break;
 
             case "3":
@@ -46,15 +46,19 @@
                 break;
 
             case "5":
+                certificatePageLoading();
                 break;
 
             case "6":
+                productPhotosLoading();
                 break;
 
             case "7":
                 contactPageLoading();
                 break;
         }
+        setContactInfo();
+        langController(getCookie("activeLanguage"));
     });
 
     /*[ Back to top ]

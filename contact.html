@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>İletişime Geçin</title>
+	<title class="lang" key="contact">İletişime Geçin</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->
@@ -38,26 +38,17 @@
 		<!-- Header desktop -->
 		<div class="container-menu-header">
 			<div class="topbar">
-				<div class="topbar-social">
-					<a href="http://www.facebook.com" class="topbar-social-item fa fa-facebook"></a>
-					<a href="http://www.instagram.com" class="topbar-social-item fa fa-instagram"></a>
-					<a href="http://www.youtube.com" class="topbar-social-item fa fa-youtube-play"></a>
+				<div class="topbar-social" id="sociall1">
+
 				</div>
 
-				<span class="topbar-child1">
-					bazmen.tex@gmail.com
+				<span class="topbar-child1" id="footerMail2">
 				</span>
 
 				<div class="topbar-child2">
-					<span class="topbar-email">
-
-					</span>
-
 					<div class="topbar-language rs1-select2">
-						<select class="selection-1" name="time">
-							<option>Türkçe</option>
-							<option>İngilizce</option>
-						</select>
+						<input class="translate" data-lang="tr" title="Türkçe" type="image" src="images/icons/tr.svg" style="width: 30px;height: 30px;" alt="TR" data-value="1"/>
+						<input class="translate" data-lang="en" title="English" type="image" src="images/icons/en.svg" style="width: 28px;height: 29px;" alt="EN" data-value="2"/>
 					</div>
 				</div>
 			</div>
@@ -73,32 +64,30 @@
 					<nav class="menu">
 						<ul class="main_menu">
 							<li>
-								<a href="index.html">Ana Sayfa</a>
+								<a href="index.html" class="lang" key="homepage">Ana Sayfa</a>
 							</li>
 
 							<li>
-								<a href="collection.html">Koleksiyon</a>
+								<a href="collection.html" class="lang" key="collection">Koleksiyon</a>
 							</li>
 
 							<li>
-								<a href="referances.html">Referanslar</a>
+								<a href="referances.html" class="lang" key="referance">Referanslar</a>
 							</li>
 
 							<li>
-								<a href="about.html">Hakkımızda</a>
+								<a href="about.html" class="lang" key="aboutus">Hakkımızda</a>
 							</li>
 
 							<li>
-								<a href="referances-detail.html">Sertifikalar</a>
+								<a href="certificates.html" class="lang" key="certificate">Sertifikalar</a>
 							</li>
 							<li>
-								<a href="cart.html">Üretim</a>
+								<a href="product.html" class="lang" key="product">Üretim</a>
 							</li>
 							<li class="sale-noti">
-								<a href="contact.html">İletişime Geçin</a>
+								<a href="contact.html" class="lang" key="contact">İletişime Geçin</a>
 							</li>
-
-
 						</ul>
 					</nav>
 				</div>
@@ -154,64 +143,56 @@
 		</div>
 
 		<!-- Menu Mobile -->
-		<div class="wrap-side-menu" >
+		<div class="wrap-side-menu">
 			<nav class="side-menu">
 				<ul class="main-menu">
 					<li class="item-topbar-mobile p-l-20 p-t-8 p-b-8">
-						<span class="topbar-child1">
-							bazmen.tex@gmail.com
+						<span class="topbar-child1" id="maill1">
 						</span>
 					</li>
 
 					<li class="item-topbar-mobile p-l-20 p-t-8 p-b-8">
 						<div class="topbar-child2-mobile">
-							<span class="topbar-email">
-
-							</span>
-
 							<div class="topbar-language rs1-select2">
-								<select class="selection-1" name="time">
-									<option>Türkçe</option>
-									<option>İngilizce</option>
-								</select>
+								<input class="translate" data-lang="tr" title="Türkçe" type="image" src="images/icons/tr.svg" style="width: 30px;height: 30px;" alt="TR" data-value="1"/>
+								<input class="translate" data-lang="en" title="English" type="image" src="images/icons/en.svg" style="width: 28px;height: 29px;" alt="EN" data-value="2"/>
 							</div>
 						</div>
 					</li>
 
 					<li class="item-topbar-mobile p-l-10">
-						<div class="topbar-social-mobile">
-							<a href="http://www.facebook.com" class="topbar-social-item fa fa-facebook"></a>
-							<a href="http://www.instagram.com" class="topbar-social-item fa fa-instagram"></a>
-							<a href="http://www.youtube.com" class="topbar-social-item fa fa-youtube-play"></a>
+						<div class="topbar-social-mobile" id="sociallmobile1">
+
 						</div>
 					</li>
 
 					<li class="item-menu-mobile">
-						<a href="index.html">Ana Sayfa</a>
-						<i class="arrow-main-menu fa fa-angle-right" aria-hidden="true"></i>
+						<a class="lang" href="index.html" key="homepage">Ana Sayfa</a>
+
 					</li>
 
 					<li class="item-menu-mobile">
-						<a href="collection.html">Koleksiyon</a>
+						<a class="lang" href="collection.html" key="collection">Koleksiyon</a>
 					</li>
 
 					<li class="item-menu-mobile">
-						<a href="referances.html">Referanslar</a>
+						<a class="lang" href="referances.html" key="referance">Referanslar</a>
 					</li>
 
 					<li class="item-menu-mobile">
-						<a href="about.html">Hakkımızda</a>
+						<a class="lang" href="about.html" key="aboutus">Hakkımızda</a>
 					</li>
 
 					<li class="item-menu-mobile">
-						<a href="referances-detail.html">Sertifikalar</a>
+						<a class="lang" href="certificates.html" key="certificate">Sertifikalar</a>
 					</li>
 					<li class="item-menu-mobile">
-						<a href="cart.html">Üretim</a>
+						<a class="lang" href="product.html" key="product">Üretim</a>
 					</li>
 					<li class="item-menu-mobile">
-						<a href="contact.html">İletişime Geçin</a>
+						<a class="lang" href="contact.html" key="contact">İletişime Geçin</a>
 					</li>
+
 				</ul>
 			</nav>
 		</div>
@@ -229,10 +210,10 @@
 				<div class="col-md-6 p-b-30">
 					<div class="p-r-20 p-r-0-lg">
 						<div>
-							<p><b>Ofis Adresi: </b><label id="address"></label></p>
-							<p><b>E-Mail: </b><label id="mail"></label></p>
-							<p><b>Telefon No: </b><label id="phoneNumber"></label></p>
-							<p><b>Fax: </b><label id="fax"></label></p>
+							<p><b class="lang" key="address">Ofis Adresi: </b><label id="address"></label></p>
+							<p><b class="lang" key="mail">E-Mail: </b><label id="mail"></label></p>
+							<p><b class="lang" key="phone">Telefon No: </b><label id="phoneNumber"></label></p>
+							<p><b class="lang" key="fax">Fax: </b><label id="fax"></label></p>
 							<br>
 						</div>
 						<div class="contact-map size21" id="google_map" data-map-x="40.614439" data-map-y="-73.926781" data-pin="images/icons/icon-position-map.png" data-scrollwhell="0" data-draggable="1"></div>
@@ -241,27 +222,27 @@
 
 				<div class="col-md-6 p-b-30">
 					<div >
-						<h4 class="m-text26 p-b-36 p-t-15">
+						<h4 class="m-text26 p-b-36 p-t-15 lang" key="sendmessage">
 							BİZE MESAJ BIRAKIN
 						</h4>
 
 						<div class="bo4 of-hidden size15 m-b-20">
-							<input id="usernameFM" class="sizefull s-text7 p-l-22 p-r-22" type="text" name="name" placeholder="İsim Soyisim">
+							<label for="usernameFM"></label><input id="usernameFM" class="sizefull s-text7 p-l-22 p-r-22 langplc" key="namesurname" type="text" name="name" placeholder="İsim Soyisim" />
 						</div>
 
 						<div class="bo4 of-hidden size15 m-b-20">
-							<input id="phoneNumberFM" class="sizefull s-text7 p-l-22 p-r-22" type="text" name="phone-number" placeholder="Telefon Numarası">
+							<label for="phoneNumberFM"></label><input id="phoneNumberFM" class="sizefull s-text7 p-l-22 p-r-22 langplc" key="phonenumber" type="text" name="phone-number" placeholder="Telefon Numarası" />
 						</div>
 
 						<div class="bo4 of-hidden size15 m-b-20">
-							<input id="mailFM" class="sizefull s-text7 p-l-22 p-r-22" type="text" name="email" placeholder="E-Mail">
+							<label for="mailFM"></label><input id="mailFM" class="sizefull s-text7 p-l-22 p-r-22 langplc" key="email" type="text" name="email" placeholder="Mail Adresi" />
 						</div>
 
-						<textarea id="messageFM" class="dis-block s-text7 size20 bo4 p-l-22 p-r-22 p-t-13 m-b-20" name="message" placeholder="Mesajınızı buraya yazınız..."></textarea>
+						<label for="messageFM"></label><textarea id="messageFM" class="dis-block s-text7 size20 bo4 p-l-22 p-r-22 p-t-13 m-b-20 langplc" key="writemessage" name="message" placeholder="Mesajınızı buraya yazınız..."></textarea>
 
 						<div class="w-size25">
 							<!-- Button -->
-							<button onclick="sendMessage();" class="flex-c-m size2 bg1 bo-rad-23 hov1 m-text3 trans-0-4">
+							<button onclick="sendMessage();" class="flex-c-m size2 bg1 bo-rad-23 hov1 m-text3 trans-0-4 lang" key="send">
 								Gönder
 							</button>
 						</div>
@@ -275,43 +256,40 @@
 	<footer class="bg6 p-t-45 p-b-43 p-l-45 p-r-45">
 		<div class="flex-w p-b-90">
 			<div class="w-size6 p-t-30 p-l-30 p-r-30 respon3">
-				<h4 class="s-text12 p-b-30">
+				<h4 class="s-text12 p-b-30 lang" key="contactus">
 					TEMASTA OLUN
 				</h4>
 
 				<div>
-					<p class="s-text7 w-size27">
-						Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us on (+1) 96 716 6879
+					<p class="s-text7 w-size27" id="footerAddress">
 					</p>
 
-					<div class="flex-m p-t-30">
-						<a href="#" class="fs-18 color1 p-r-20 fa fa-facebook"></a>
-						<a href="#" class="fs-18 color1 p-r-20 fa fa-instagram"></a>
-						<a href="#" class="fs-18 color1 p-r-20 fa fa-youtube-play"></a>
+					<div class="flex-m p-t-30" id="footerSocial">
+
 					</div>
 				</div>
 			</div>
 
 			<div class="w-size7 p-t-30 p-l-30 p-r-30 respon4">
-				<h4 class="s-text12 p-b-30">
+				<h4 class="s-text12 p-b-30 lang" key="categories">
 					Kategoriler
 				</h4>
 
 				<ul>
 					<li class="p-b-9">
-						<a href="#" class="s-text7">
+						<a href="#" class="s-text7 lang" key="man">
 							Erkek
 						</a>
 					</li>
 
 					<li class="p-b-9">
-						<a href="#" class="s-text7">
+						<a href="#" class="s-text7 lang" key="woman">
 							Kadın
 						</a>
 					</li>
 
 					<li class="p-b-9">
-						<a href="#" class="s-text7">
+						<a href="#" class="s-text7 lang" key="kids">
 							Çocuk
 						</a>
 					</li>
@@ -320,35 +298,35 @@
 			</div>
 
 			<div class="w-size7 p-t-30 p-l-30 p-r-30 respon4">
-				<h4 class="s-text12 p-b-30">
+				<h4 class="s-text12 p-b-30 lang" key="links">
 					Linkler
 				</h4>
 
 				<ul>
 					<li class="p-b-9">
-						<a href="collection.html" class="s-text7">
+						<a href="collection.html" class="s-text7 lang" key="collection">
 							Koleksiyon
 						</a>
 					</li>
 
 					<li class="p-b-9">
-						<a href="about.html" class="s-text7">
+						<a href="about.html" class="s-text7 lang" key="aboutus">
 							Hakkımızda
 						</a>
 					</li>
 					<li class="p-b-9">
-						<a href="referances.html" class="s-text7">
+						<a href="referances.html" class="s-text7 lang" key="referance">
 							Referanslar
 						</a>
 					</li>
 					<li class="p-b-9">
-						<a href="referances-detail.html" class="s-text7">
+						<a href="certificates.html" class="s-text7 lang" key="certificate">
 							Sertifikalar
 						</a>
 					</li>
 
 					<li class="p-b-9">
-						<a href="cart.html" class="s-text7">
+						<a href="product.html" class="s-text7 lang" key="product">
 							Üretim
 						</a>
 					</li>
@@ -357,13 +335,13 @@
 
 
 			<div class="w-size8 p-t-30 p-l-30 p-r-30 respon3">
-				<h4 class="s-text12 p-b-30">
+				<h4 class="s-text12 p-b-30 lang" key="mail">
 					Mail Adresi
 				</h4>
 
 				<form>
 					<div class="effect1 w-size9">
-						<span>bazmen.tex@gmail.com</span>
+						<span id="footerMail1"></span>
 					</div>
 
 				</form>
@@ -371,14 +349,11 @@
 		</div>
 
 		<div class="t-center p-l-15 p-r-15">
-			<div class="t-center s-text8 p-t-20">
+			<div class="t-center s-text8 p-t-20 lang" key="websiteowner">
 				Bu web sitesi Metin Gün tarafından yapılmıştır. | İletişim için: 0546-628-76-02 | metingun0202@gmail.com
 			</div>
 		</div>
 	</footer>
-
-
-
 
 	<!-- Back to top -->
 	<div class="btn-back-to-top bg0-hov" id="myBtn">
@@ -402,17 +377,6 @@
 	<script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
 <!--===============================================================================================-->
 	<script type="text/javascript" src="vendor/select2/select2.min.js"></script>
-	<script type="text/javascript">
-		$(".selection-1").select2({
-			minimumResultsForSearch: 20,
-			dropdownParent: $('#dropDownSelect1')
-		});
-
-		$(".selection-2").select2({
-			minimumResultsForSearch: 20,
-			dropdownParent: $('#dropDownSelect2')
-		});
-	</script>
 <!--===============================================================================================-->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes"></script>
 	<script src="js/map-custom.js"></script>
@@ -421,7 +385,8 @@
 	<script src="js/contact.js"></script>
 	<script src="js/message.js"></script>
 	<script src="js/globalFunc.js"></script>
-	<script src="config.js"></script>
+	<script src="-config.js"></script>
+	<script src="js/LANG.js"></script>
 
 </body>
 </html>

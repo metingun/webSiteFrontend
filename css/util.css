@@ -3129,7 +3129,11 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	color: #555555;
 	line-height: 1.8;
 }
-
+.s-text15x {
+    font-family: Montserrat-Regular;
+    font-size: 15px;
+    line-height: 1.8;
+}
 .s-text17 {
 	font-family: Montserrat-Regular;
 	font-size: 12px;
