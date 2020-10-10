@@ -2466,3 +2466,25 @@ input.num-product::-webkit-inner-spin-button {
 .height-360{
     height: 360px;
 }
+@media(max-width: 576px){
+    .wrap-pic-w img,.block1{
+        width: 90%;
+        height: 455px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+.block2-txt:hover {
+    color: red;
+    cursor: pointer;
+}
+.collectionImg:hover {
+    border: solid;
+    cursor: pointer;
+}
+.category:hover {
+    color: red;
+    border-bottom: solid;
+    cursor: pointer;
+}

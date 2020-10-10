@@ -12,8 +12,8 @@ function htmlTemplate(responseData) {
 }
 
 function certificatePageLoading() {
-    var response=getModel(url+"/certificates/getAllData");
-
+    var response=getModel(url+"/certificates/getAllData/language="+getCookie('activeLanguage'));
+    document.getElementById("itemBlogs").innerHTML="";
     for (let i=0;i<response.data.length;i++){
         document.getElementById("itemBlogs").innerHTML+=htmlTemplate(response.data[i]);
     }

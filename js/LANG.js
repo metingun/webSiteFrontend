@@ -1,8 +1,11 @@
-var activeLanguage="tr";
+var activeLanguage="Türkçe";
+if (getCookie("activeLanguage")===""){
+    document.cookie="activeLanguage=Türkçe";
+}
 
 
 var arrLang = {
-    'en': {
+    'English': {
         'title': 'About Us',
         'turkish': 'Turkish',
         'english': 'English',
@@ -43,7 +46,7 @@ var arrLang = {
 
 
     },
-    'tr': {
+    'Türkçe': {
         'title': 'Hakkımızda',
         'turkish': 'Türkçe',
         'english': 'İngilizce',
@@ -99,6 +102,7 @@ $(function() {
         var lang = $(this).attr('data-lang');
         activeLanguage=lang;
         document.cookie = "activeLanguage="+activeLanguage+"; path=/;";
-        langController(lang)
+        langController(lang);
+        location.reload();
     });
 });

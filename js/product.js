@@ -7,7 +7,8 @@ function htmlTemplate(responseData) {
         "</div></div>";
 }
 function productPhotosLoading() {
-    var response=getModel(url+"/product/getAllData");
+    var response=getModel(url+"/product/getAllData/language="+getCookie("activeLanguage"));
+    document.getElementById("collectionRow").innerHTML="";
     for (let i=0; i<response.data.length; i++){
         document.getElementById("collectionRow").innerHTML+=htmlTemplate(response.data[i]);
     }

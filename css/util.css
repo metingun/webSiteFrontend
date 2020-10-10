@@ -2354,7 +2354,7 @@
 /*[ Wrap Picture ]
 -----------------------------------------------------------
 */
-.wrap-pic-w img {width: 100%;}
+.wrap-pic-w img {width: 100%;height: 360px;}
 .wrap-pic-max-w img {max-width: 100%;}
 
 /* ------------------------------------ */
@@ -2796,6 +2796,7 @@
 }
 
 .flex-col-c-m {
+    margin: 0 auto;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -moz-box;

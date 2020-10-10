@@ -2,7 +2,7 @@ function htmlTemplate(responseData) {
     return "<div class='col-sm-12 col-md-6 col-lg-4 p-b-50 searchRow'>" +
         "<div class='block2'>" +
         "<div class='block2-img wrap-pic-w of-hidden pos-relative '>" +
-        "<img class='height-360' src='"+responseData.pic1+"' alt='IMG-PRODUCT' " +
+        "<img class='collectionImg' src='"+responseData.pic1+"' alt='IMG-PRODUCT' " +
         "data-toggle='modal' data-target='#myModal' onclick='setProductDetailModal("+responseData.id+");'>" +
         "</div>" +
         "<div class='block2-txt p-t-20'>" +
@@ -10,13 +10,10 @@ function htmlTemplate(responseData) {
         "onclick='setProductDetailModal("+responseData.id+");'>"+responseData.productName+"</a>" +
         "</div></div></div>";
 }
-function collectionLoading(sexId,id,refresh) {
-    if (refresh===1){
-        location.href=""+urlFrontend+"/collection.html";
-    }
+function collectionLoading(sexId,id) {
     var value=document.getElementById(id).textContent;
     setValueById("collectionTag",value);
-    var response=getModel(url+"/collection/getDataBySex/"+sexId).data;
+    var response=getModel(url+"/collection/getDataBySex/"+sexId+"/language="+getCookie("activeLanguage")).data;
     document.getElementById("collectionRow").innerHTML = "";
     for (let i=0; i<response.length; i++){
         document.getElementById("collectionRow").innerHTML+=htmlTemplate(response[i]);

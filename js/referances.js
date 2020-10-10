@@ -11,8 +11,8 @@ function htmlTemplate(responseData) {
         "</div></div>";
 }
 function referancePageLoading() {
-    var response=getModel(url+"/referance/getAllData");
-
+    var response=getModel(url+"/referance/getAllData/language="+getCookie("activeLanguage"));
+    document.getElementById("itemBlogs").innerHTML="";
     for (let i=0;i<response.data.length;i++){
         document.getElementById("itemBlogs").innerHTML+=htmlTemplate(response.data[i]);
     }

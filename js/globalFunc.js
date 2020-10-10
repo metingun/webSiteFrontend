@@ -76,6 +76,10 @@ function setContactInfo() {
     var facebookIconFS="fs-18 color1 p-r-20 fa fa-facebook";
     var instaIconFS="fs-18 color1 p-r-20 fa fa-instagram";
 
+    document.getElementById("sociall1").innerHTML="";
+    document.getElementById("sociallmobile1").innerHTML="";
+    document.getElementById("footerSocial").innerHTML="";
+
     if (response.facebook!==""){
         document.getElementById("sociall1").innerHTML+='<a class="'+facebookIcon+'" href="'+response.facebook+'"></a>';
         document.getElementById("sociallmobile1").innerHTML+='<a class="'+facebookIcon+'" href="'+response.facebook+'"></a>';
@@ -92,5 +96,18 @@ function setContactInfo() {
     setValueById("maill1",response.mail);
     setValueById("footerMail1",response.mail);
     setValueById("footerMail2",response.mail);
-    setValueById("footerAddress",response.address);
+    if (getCookie("activeLanguage")==="English"){
+        setValueById("footerAddress",response.addressEn);
+    }
+    if (getCookie("activeLanguage")==="Türkçe"){
+        setValueById("footerAddress",response.address);
+    }
+}
+
+function goToCollection(ref,collectionId) {
+    document.cookie="refresh="+ref+"; path=/; max-age="+60*60*60*2+";";
+    document.cookie="collectId="+collectionId+"; path=/; max-age="+60*60*60*2+";";
+    if (ref==="1"){
+        location.href=""+urlFrontend+"/collection.html";
+    }
 }
