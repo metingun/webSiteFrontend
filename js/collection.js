@@ -10,7 +10,10 @@ function htmlTemplate(responseData) {
         "onclick='setProductDetailModal("+responseData.id+");'>"+responseData.productName+"</a>" +
         "</div></div></div>";
 }
-function collectionLoading(sexId,id) {
+function collectionLoading(sexId,id,refresh) {
+    if (refresh===1){
+        location.href=""+urlFrontend+"/collection.html";
+    }
     var value=document.getElementById(id).textContent;
     setValueById("collectionTag",value);
     var response=getModel(url+"/collection/getDataBySex/"+sexId).data;

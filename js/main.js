@@ -34,7 +34,7 @@
                 break;
 
             case "2":
-                collectionLoading(0,'allCollection');
+                collectionLoading(0,'allCollection',0);
                 break;
 
             case "3":
