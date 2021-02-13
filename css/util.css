@@ -2355,6 +2355,7 @@
 -----------------------------------------------------------
 */
 .wrap-pic-w img {width: 100%;height: 360px;}
+.wrap-pic-w .modalImage {width: 100%;height: 420px;}
 .wrap-pic-max-w img {max-width: 100%;}
 
 /* ------------------------------------ */
@@ -3425,7 +3426,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 .xl-text3 {
 	font-family: Montserrat-Regular;
 	font-size: 50px;
-	color: #111111;
+	color: #f31b1b;
 	line-height: 1.2;
 	letter-spacing: 3px;
 	text-transform: uppercase;
@@ -3829,7 +3830,7 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 }
 
 .bo15 {
-	border-bottom: 3px solid #111111;
+	border-bottom: 3px solid #f31b1b;
 }
 
 /*[  ]
